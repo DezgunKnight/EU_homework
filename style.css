@@ -1,0 +1,86 @@
+.div1 {
+    background-color: yellow;
+    color: black;
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    margin: 0 auto;
+}
+.UserData {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.UserData ul {
+    list-style: none;
+}
+span:nth-child(1){
+    font-size: 30px;
+}
+
+.section-2 {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://i.stack.imgur.com/jGlzr.png);
+}
+.sec2-div1 {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.sec2-div1 li {
+    color: purple;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    opacity: 0.75;
+    color: yellow;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar li {
+    margin-right: 50px;
+    font-size: 20px;
+}
+.navbar li:last-child {
+    margin-right: 0;
+}
+.page2-div {
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://www.significadofacil.com/wp-content/uploads/2019/07/background-1200x800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+* {
+    text-decoration: none;
+}
+.page3-div {
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?cs=srgb&dl=pexels-pixabay-33109.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
